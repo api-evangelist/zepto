@@ -1,8 +1,25 @@
 aid: zepto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zepto.png
 name: Zepto
-description: 'Zepto is a company surfaced as a portfolio company of general-catalyst, lightspeed-venture-partners,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This
-  profile is a lead awaiting the enrichment pipeline.'
+description: 'Zepto (Zepto Marketplace Private Limited) is an Indian quick-commerce grocery
+  delivery company founded in 2021 that delivers groceries, fresh fruits and vegetables, meat,
+  pet care, beauty and household products "in minutes" from a network of dark stores across major
+  Indian cities. It operates a consumer-facing mobile app and website (zepto.com, formerly
+  zeptonow.com) and publishes no public developer API, developer portal, or API documentation;
+  its partner-facing surfaces are limited to merchant onboarding (Sell on Zepto / brands.zepto.co.in),
+  delivery-partner and franchise programs. Backed by General Catalyst, Lightspeed Venture Partners
+  and Y Combinator.'
 url: https://raw.githubusercontent.com/api-evangelist/zepto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Grocery Delivery
+- Quick Commerce
+- E-Commerce
+- Retail
+- Logistics
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zepto-domain-security.yml
 - type: Website
-  url: https://www.zeptonow.com
+  url: https://www.zepto.com
+- type: Blog
+  url: https://blog.zepto.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
