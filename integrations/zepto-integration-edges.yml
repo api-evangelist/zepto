@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://monid.ai/tools/zepto
+checked:
+- https://composio.dev/toolkits/zepto
+- https://monid.ai/tools/zepto
+- https://n8n.io/integrations/zepto/
+- https://zapier.com/apps/zepto/integrations
+summary: null
+marketplace_apps:
+- marketplace: monid
+  channel: agent-gateway
+  app: zepto
+  url: https://monid.ai/tools/zepto
+  identity: slug
+edges: []
+templates: []
